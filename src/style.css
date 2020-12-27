@@ -11,7 +11,7 @@ h1 {
 }
 
 hr {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 p {
@@ -21,6 +21,14 @@ p {
 
 form {
   margin-top: 20px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
 }
 
 a {
