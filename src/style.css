@@ -30,8 +30,6 @@ a {
 .city,
 .temperature,
 .time {
-  border: 2px solid #898b8a;
-  padding: 10px;
 }
 .emoji {
   font-size: 35px;
