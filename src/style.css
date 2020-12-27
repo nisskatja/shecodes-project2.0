@@ -1,0 +1,36 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background: #f6f5f1;
+  display: block;
+  padding: 50px 200px;
+}
+
+h1 {
+  color: #16a596;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+.city,
+.temperature,
+.time {
+  border: 2px solid #898b8a;
+  padding: 10px;
+}
+.emoji {
+  font-size: 35px;
+}
+
+a {
+  color: #212529;
+}
