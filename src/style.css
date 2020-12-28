@@ -35,6 +35,12 @@ li {
   list-style: none;
 }
 
+img {
+  display: block;
+  position: relative;
+  left: -24px;
+}
+
 a {
   color: #ffbd69;
   font-size: 10px;
