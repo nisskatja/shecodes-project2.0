@@ -2,9 +2,11 @@ body {
   font-family: "Noto Sans TC", sans-serif;
   background: #f6f5f1;
   display: block;
-  padding: 50px 100px;
-  margin: 0 auto;
+  padding: 50px 70px;
+  margin: 30px auto;
   max-width: 880px;
+  border: 3px solid #48a697;
+  border-radius: 12px;
 }
 
 h1 {
