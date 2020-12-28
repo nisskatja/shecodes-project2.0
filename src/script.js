@@ -16,10 +16,11 @@ let currentDay = document.querySelector(".time");
 currentDay.innerHTML = `${day} ${hour}:${minute}`;
 
 function showWeather (response) {
-
+  console.log(response.data);
   document.querySelector("#temperature").innerHTML=`${Math.round(response.data.main.temp)}°C`;
   document.querySelector(".city").innerHTML = response.data.name;
-  document.querySelector("#wind").innerHTML = `${Math.round(response.data.wind.speed)} km/h`;
+  document.querySelector("#wind").innerHTML = `${Math.round(response.data.wind.speed)} m/s`;
+document.querySelector("#description").innerHTML = response.data.weather[0].description;
 }
 
 
