@@ -1,20 +1,20 @@
 body {
   font-family: "Noto Sans TC", sans-serif;
-  background: #f6f5f1;
+  background: #111d5e;
   display: block;
   padding: 50px 70px;
   margin: 30px auto;
   max-width: 880px;
-  border: 3px solid #48a697;
+  border: 3px solid #f37121;
   border-radius: 12px;
 }
 
 h1 {
-  color: #16a596;
+  color: #f37121;
 }
 
 hr {
-  margin-top: 15px;
+  margin-top: -37px;
 }
 
 p {
@@ -28,6 +28,7 @@ form {
 
 ul {
   padding-left: 0px;
+  color: #ffbd69;
 }
 
 li {
@@ -35,19 +36,19 @@ li {
 }
 
 a {
-  color: #212529;
+  color: #ffbd69;
   font-size: 10px;
 }
-.city,
-.temperature,
-.time {
-}
+
 .emoji {
   font-size: 35px;
 }
 
 .link {
-  color: #212529;
+  color: #ffbd69;
   padding-left: 17px;
   font-size: 10px;
+}
+.col-auto {
+  margin-top: 50px;
 }
