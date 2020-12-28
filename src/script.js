@@ -57,16 +57,12 @@ function currentLocation (event) {
 function unitConversionF (event) {
   event.preventDefault();
   let temperature = document.querySelector("#temperature");
-  celsius.classList.remove("active");
-  fahrenheit.classList.add("active");
   let fahrenheitTemperature = Math.round(celsiusTemperature * 9/5)+32;
   temperature.innerHTML= fahrenheitTemperature;
 }
 
 function unitConversionC (event) {
   event.preventDefault();
-celsius.classList.add("active");
-fahrenheit.classList.remove("active");
 let temperature = document.querySelector("#temperature");
 temperature.innerHTML = Math.round(celsiusTemperature);
 }
