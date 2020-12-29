@@ -31,6 +31,10 @@ celsiusTemperature = response.data.main.temp;
 }
 
 
+function displayForecast (response) {
+console.log(response.data);
+}
+
 function showCity (event) {
   event.preventDefault();
   
@@ -40,6 +44,8 @@ function showCity (event) {
  
  axios.get(apiUrl).then(showWeather);
 
+ apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
+axios.get(apiUrl).then(displayForecast);
 }
 
 function searchLocation (position) {
