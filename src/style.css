@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  color: #a9294f;
+  color: #ebcfc4;
 }
 
 hr {
@@ -56,4 +56,7 @@ a {
 }
 .col-auto {
   margin-top: 50px;
+}
+.card {
+  background-color: #839b97;
 }

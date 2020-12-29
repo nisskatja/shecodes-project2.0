@@ -16,7 +16,7 @@
 
 <body>
     <div class="container">
-        <h1>3-day weather forecast <i class="fas fa-cloud-moon-rain"></i></h1>
+        <h1>3-hour weather forecast <i class="fas fa-cloud-moon-rain"></i></h1>
 
         <form>
             <div class="form-row align-items-center">
@@ -27,9 +27,7 @@
                 <div class="col-auto">
                     <button type="submit" class="btn btn-primary mb-2">search</button>
                 </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-2" id="current">current</button>
-                </div>
+                
             </div>
         </form>
         <div class="row">
@@ -54,44 +52,8 @@
         </div>
         <br />
         <hr />
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 10rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Monday</h5>
-                        <p class="card-text">
-                            12°
-                            <br />
-                            <span class="emoji"> 🌤 </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width: 10rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Tuesday</h5>
-                        <p class="card-text">
-                            13°
-                            <br />
-                            <span class="emoji"> 🌥 </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width: 10rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Wednesday</h5>
-                        <p class="card-text">
-                            10°
-                            <br />
-                            <span class="emoji"> ☁️ </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-    
+        <div class="row" id="forecast">
+          
         </div>
     </div>
     <span class="link">
