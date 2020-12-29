@@ -25,8 +25,7 @@ if (hour < 10)  {
 return `${hour}:${minute}`;
 }
 
-//let currentDay = document.querySelector(".time");
-//currentDay.innerHTML = `${day} ${hour}:${minute}`;
+
 
 function showWeather (response) {
 
@@ -37,7 +36,7 @@ document.querySelector("#description").innerHTML = response.data.weather[0].desc
 document.querySelector("#icon").setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 document.querySelector("#humidity").innerHTML = `${response.data.main.humidity}%`;
 celsiusTemperature = response.data.main.temp;
-
+document.querySelector("#time").innerHTML= formatDate(response.data.dt * 1000);
 }
 
 
